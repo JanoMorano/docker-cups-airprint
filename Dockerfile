@@ -15,6 +15,8 @@ RUN apt-get update && apt-get install -y \
 	cups-pdf \
 	inotify-tools \
 	python-cups \
+	printer-driver-all \
+	printer-driver-foo2zjs \
 && rm -rf /var/lib/apt/lists/*
 
 # This will use port 631
