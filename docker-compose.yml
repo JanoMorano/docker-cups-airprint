@@ -3,7 +3,7 @@ version: '3.5'
 services:
   cups:
     container_name: cups
-    image: JanMorano/docker-cups-airprint
+    image: janmorano/docker-cups-airprint
     #build: .
     restart: always
     network_mode: "_maclan.network"
